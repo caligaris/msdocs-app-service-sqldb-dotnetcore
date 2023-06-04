@@ -60,4 +60,4 @@ jobs:
           app-name: 'lucali-webappdatabase'
           slot-name: 'Production'
           publish-profile: ${{ secrets.PUBLISHPROFILE }}
-          package: ${{env.DOTNET_ROOT}}/myapp
+          package: .
